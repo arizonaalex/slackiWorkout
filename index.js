@@ -12,7 +12,7 @@ var app = express();
 
 var runningTotal = 0;
 // Again, we define a port we want to listen to
-const PORT=4390;
+const PORT=package.env.PORT;
 
 // Lets start our server
 app.listen(PORT, function () {
