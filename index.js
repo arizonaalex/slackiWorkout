@@ -17,7 +17,7 @@ const PORT=4390;
 // Lets start our server
 app.listen(process.env.PORT || PORT, function () {
     //Callback triggered when server is successfully listening. Hurray!
-    console.log("Example app listening on port " + PORT);
+    console.log("Slack Workout app listening on port " + PORT);
 });
 
 
