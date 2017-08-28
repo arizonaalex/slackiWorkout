@@ -26,7 +26,7 @@ app.get('/', function(req, res) {
     res.send('Ngrok is working! Path Hit: ' + req.url);
 });
 
-app.get('/name/{name}', function(req,res) {
+app.get('/name', function(req,res) {
 	res.send('Your name is' + req.url)
 });
 
