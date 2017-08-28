@@ -12,10 +12,10 @@ var app = express();
 
 var runningTotal = 0;
 // Again, we define a port we want to listen to
-const PORT=package.env.PORT;
+const PORT=4390;
 
 // Lets start our server
-app.listen(PORT, function () {
+app.listen(process.env.PORT || PORT, function () {
     //Callback triggered when server is successfully listening. Hurray!
     console.log("Example app listening on port " + PORT);
 });
