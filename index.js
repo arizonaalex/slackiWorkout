@@ -26,6 +26,10 @@ app.get('/', function(req, res) {
     res.send('Ngrok is working! Path Hit: ' + req.url);
 });
 
+app.get('/name/{name}', function(req,res) {
+	res.send('Your name is' + req.url)
+});
+
 // This route handles get request to a /oauth endpoint. We'll use this endpoint for handling the logic of the Slack oAuth process behind our app.
 app.get('/oauth', function(req, res) {
     // When a user authorizes an app, a code query parameter is passed on the oAuth endpoint. If that code is not there, we respond with an error message
