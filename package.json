@@ -1,0 +1,28 @@
+{
+  "name": "slackapp",
+  "version": "1.0.0",
+  "description": "aggregate workouts",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "request": "^2.81.0",
+    "sudo": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arizonaalex/slackiWorkout.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Alex Bowen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arizonaalex/slackiWorkout/issues"
+  },
+  "homepage": "https://github.com/arizonaalex/slackiWorkout#readme"
+}
